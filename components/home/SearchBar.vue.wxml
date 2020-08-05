@@ -1,0 +1,8 @@
+<template name="4e4984fd">
+  <view class="_div data-v-de525f14 searchBar">
+    <view class="_div data-v-de525f14 searchBar-warper">
+      <van-icon class="_van-icon data-v-de525f14 search" name="search" size="16px" color="#858C96" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></van-icon> <input type="text" class="_input data-v-de525f14 search-bar-input" focus="{{focus}}" disable="{{disable}}" maxlength="{{limit}}" placeholder="{{hotSearch.length === 0 ? '请搜索关键字' : hotSearch}}" value="{{searchWorld}}" bindinput="handleProxy" confirm-type="search" bindconfirm="handleProxy" placeholder-style="color: #ADB4BE;" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+      <van-icon class="_van-icon data-v-de525f14 clear" name="clear" size="16px" color="#858C96" bindtap="handleProxy" wx:if="{{searchWorld.length > 0}}" data-eventid="{{'2'}}" data-comkey="{{$k}}"></van-icon>
+    </view>
+  </view>
+</template>

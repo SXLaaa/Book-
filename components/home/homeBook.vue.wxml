@@ -1,0 +1,19 @@
+<import src="/components/base/imageView.vue.wxml" /><template name="409eb906">
+  <view class="_div data-v-3024cb26 home-book">
+    <view class="_div data-v-3024cb26 home-book-header">{{title}}</view>
+    <view class="_div data-v-3024cb26 home-book-content">
+      <view class="_div data-v-3024cb26 home-book-row" wx:key="index" key="{{index}}" wx:for="{{bookData}}" wx:for-index="index" wx:for-item="item">
+        <view class="_div data-v-3024cb26 home-book-col" wx:key="bookIndex" key="{{bookIndex}}" wx:for="{{item}}" wx:for-index="bookIndex" wx:for-item="book">
+          <view class="_div data-v-3024cb26 book-wrapper" style=" {{('flex:' + ('0 0' + col / 100 + '00') + ';')}}"><template data="{{...$root[$kk+'0_'+index+'-'+bookIndex], $root}}" is="7cf08b38"></template>
+            <view class="_div data-v-3024cb26 book-wrapper-title book-title-col">
+              <view class="_div data-v-3024cb26 book-title">
+                {{book.title}}
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-3024cb26 home-book-footer"></view>
+  </view>
+</template>

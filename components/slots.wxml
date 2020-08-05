@@ -1,0 +1,5 @@
+<import src="/components/home/SearchBar.vue.wxml" />
+<import src="/components/home/homeCard.vue.wxml" />
+<import src="/components/home/homeBanner.vue.wxml" />
+<import src="/components/home/homeBook.vue.wxml" />
+<import src="/components/base/imageView.vue.wxml" />

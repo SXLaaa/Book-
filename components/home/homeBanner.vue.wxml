@@ -1,0 +1,8 @@
+<template name="0c6a3689">
+  <view class="_div data-v-1b865a30 home-banner" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-1b865a30 bg-img" style=" {{('background-image:' + backgroundImage + ';')}}">
+      <view class="_div data-v-1b865a30 title">{{title}}</view>
+      <view class="_div data-v-1b865a30 sub-title">{{subTitle}}</view>
+    </view>
+  </view>
+</template>

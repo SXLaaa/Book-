@@ -1,0 +1,8 @@
+<import src="/components/home/SearchBar.vue.wxml" />
+<import src="/components/home/homeCard.vue.wxml" />
+<import src="/components/home/homeBanner.vue.wxml" />
+<import src="/components/home/homeBook.vue.wxml" /><template name="0617d31a">
+  <view class="_div data-v-473ceaec"><template bindonClick="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="4e4984fd"></template> <template data="{{...$root[$kk+'1'], $root}}" is="6eb6e4a6"></template> <template img="http://www.youbaobao.xyz/book/res/bg.jpg" title="多端小程序上线了" subTitle="体验" data="{{...$root[$kk+'2'], $root}}" is="0c6a3689"></template>
+    <view class="_div data-v-473ceaec homebook"><template title="为你推荐" data="{{...$root[$kk+'3'], $root}}" is="409eb906"></template></view>
+  </view>
+</template>
