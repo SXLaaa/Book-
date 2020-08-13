@@ -12,5 +12,6 @@
     "van-button": "/vant-weapp/dist/button/index",
     "van-icon": "/vant-weapp/dist/icon/index",
     "van-dialog": "/vant-weapp/dist/dialog/index"
-    }
+  },
+  "sitemapLocation": "sitemap41.json"
 }

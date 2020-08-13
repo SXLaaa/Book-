@@ -3,17 +3,40 @@
     <view class="_div data-v-3024cb26 home-book-header">{{title}}</view>
     <view class="_div data-v-3024cb26 home-book-content">
       <view class="_div data-v-3024cb26 home-book-row" wx:key="index" key="{{index}}" wx:for="{{bookData}}" wx:for-index="index" wx:for-item="item">
-        <view class="_div data-v-3024cb26 home-book-col" wx:key="bookIndex" key="{{bookIndex}}" wx:for="{{item}}" wx:for-index="bookIndex" wx:for-item="book">
-          <view class="_div data-v-3024cb26 book-wrapper" style=" {{('flex:' + ('0 0' + col / 100 + '00') + ';')}}"><template data="{{...$root[$kk+'0_'+index+'-'+bookIndex], $root}}" is="7cf08b38"></template>
-            <view class="_div data-v-3024cb26 book-wrapper-title book-title-col">
+        <view class="_div data-v-3024cb26 home-book-col" wx:key="bookIndex" key="{{bookIndex}}" wx:for="{{item}}" wx:for-index="bookIndex" wx:for-item="book" style=" {{('flex:' + ('00' + 100 / col + '%') + ';')}}">
+          <view class="_div data-v-3024cb26 book-wrapper" bindtap="handleProxy" wx:if="{{mode === HOME_BOOK_MODE.COL || mode === HOME_BOOK_MODE.ROW}}" data-eventid="{{'0_'+index+'-'+bookIndex}}" data-comkey="{{$k}}" style=" {{('flex-direction:' + (mode === HOME_BOOK_MODE.COL ? 'column' : 'row') + ';')}}"><template data="{{...$root[$kk+'0_'+index+'-'+bookIndex], $root}}" is="7cf08b38"></template>
+            <view class="_div data-v-3024cb26 book-wrapper-title book-title-col" wx:if="{{mode === HOME_BOOK_MODE.COL}}">
               <view class="_div data-v-3024cb26 book-title">
                 {{book.title}}
               </view>
+            </view>
+            <view class="_div data-v-3024cb26 book-wrapper-title book-title-row" wx:else>
+              <view class="_div data-v-3024cb26 book-title">
+                {{book.title}}
+              </view>
+              <view class="_div data-v-3024cb26 book-wrapper-author">
+                <view class="_div data-v-3024cb26 book-title book-author">
+                  {{book.author}}
+                </view>
+                <view class="_div data-v-3024cb26 book-title book-author">
+                  {{book.categoryText}}
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="_div data-v-3024cb26 category-wrapper" wx:else>
+            <view class="_div data-v-3024cb26 category-text">{{book.text}}</view>
+            <view class="_div data-v-3024cb26 category-num">{{book.num}}本书</view>
+            <view class="_div data-v-3024cb26 category-img-wraper">
+              <view class="_div data-v-3024cb26 category-img1"><template data="{{...$root[$kk+'1_'+index+'-'+bookIndex], $root}}" is="7cf08b38"></template></view>
+              <view class="_div data-v-3024cb26 category-img2"><template data="{{...$root[$kk+'2_'+index+'-'+bookIndex], $root}}" is="7cf08b38"></template></view>
             </view>
           </view>
         </view>
       </view>
     </view>
-    <view class="_div data-v-3024cb26 home-book-footer"></view>
+    <view class="_div data-v-3024cb26 home-book-footer" wx:if="{{showBtn}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+      <van-button round custom-class="home-book-btn" class="_van-button data-v-3024cb26">{{btnText}}</van-button>
+    </view>
   </view>
 </template>

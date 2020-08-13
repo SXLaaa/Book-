@@ -167,6 +167,10 @@ if (false) {(function () {
 //
 //
 //
+//
+//
+//
+//
 
 /* eslint-disable */
 
@@ -174,56 +178,158 @@ if (false) {(function () {
 
 
 /* harmony default export */ __webpack_exports__["a"] = ({
-  components: {
-    SearchBar: __WEBPACK_IMPORTED_MODULE_0__components_home_SearchBar__["a" /* default */], homeCard: __WEBPACK_IMPORTED_MODULE_1__components_home_homeCard__["a" /* default */], homeBanner: __WEBPACK_IMPORTED_MODULE_2__components_home_homeBanner__["a" /* default */], homeBook: __WEBPACK_IMPORTED_MODULE_3__components_home_homeBook__["a" /* default */]
-  },
-  data: function data() {
-    return {
-      data: [{
-        "id": 67,
-        "fileName": "2018_Book_Nanoinformatics",
-        "cover": "https://www.youbaobao.xyz/book/res/img/MaterialsScience/978-981-10-7617-6_CoverFigure.jpg",
-        "title": "Nanoinformatics",
-        "author": "Isao Tanaka",
-        "publisher": "Springer Singapore",
-        "bookId": "2018_Book_Nanoinformatics",
-        "category": 15,
-        "categoryText": "MaterialsScience",
-        "language": "en",
-        "rootFile": "OEBPS/package.opf"
-      }, {
-        "id": 38,
-        "fileName": "2018_Book_DesigningSustainableTechnologi",
-        "cover": "https://www.youbaobao.xyz/book/res/img/Environment/978-3-319-66981-6_CoverFigure.jpg",
-        "title": "Designing Sustainable Technologies, Products and Policies",
-        "author": "Enrico Benetto",
-        "publisher": "Springer International Publishing",
-        "bookId": "2018_Book_DesigningSustainableTechnologi",
-        "category": 6,
-        "categoryText": "Environment",
-        "language": "en",
-        "rootFile": "OEBPS/package.opf"
-      }, {
-        "id": 12,
-        "fileName": "2018_Book_RESTARTSustainableBusinessMode",
-        "cover": "https://www.youbaobao.xyz/book/res/img/BusinessandManagement/978-3-319-91971-3_CoverFigure.jpg",
-        "title": "RESTART Sustainable Business Model Innovation",
-        "author": "Sveinung Jørgensen",
-        "publisher": "Springer International Publishing",
-        "bookId": "2018_Book_RESTARTSustainableBusinessMode",
-        "category": 13,
-        "categoryText": "BusinessandManagement",
-        "language": "en",
-        "rootFile": "OEBPS/package.opf"
-      }]
-    };
-  },
+    components: {
+        SearchBar: __WEBPACK_IMPORTED_MODULE_0__components_home_SearchBar__["a" /* default */], homeCard: __WEBPACK_IMPORTED_MODULE_1__components_home_homeCard__["a" /* default */], homeBanner: __WEBPACK_IMPORTED_MODULE_2__components_home_homeBanner__["a" /* default */], homeBook: __WEBPACK_IMPORTED_MODULE_3__components_home_homeBook__["a" /* default */]
+    },
+    data: function data() {
+        return {
+            data: [{
+                "cover": "https://www.youbaobao.xyz/book/res/img/Biomedicine/978-3-319-25474-6_CoverFigure.jpg",
+                "category": 12,
+                "categoryText": "Biomedicine",
+                "num": 14,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Biomedicine/978-3-319-72790-5_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/BusinessandManagement/978-3-319-33515-5_CoverFigure.jpg",
+                "category": 13,
+                "categoryText": "BusinessandManagement",
+                "num": 16,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/BusinessandManagement/978-3-319-95261-1_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/ComputerScience/978-3-319-90415-3_CoverFigure.jpg",
+                "category": 1,
+                "categoryText": "ComputerScience",
+                "num": 56,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/ComputerScience/978-3-319-96142-2_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/EarthSciences/978-981-10-3713-9_CoverFigure.jpg",
+                "category": 14,
+                "categoryText": "EarthSciences",
+                "num": 16,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/EarthSciences/978-3-319-65633-5_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Economics/978-3-319-69772-7_CoverFigure.jpg",
+                "category": 3,
+                "categoryText": "Economics",
+                "num": 30,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Economics/978-3-319-91400-8_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Education/978-3-319-39450-3_CoverFigure.jpg",
+                "category": 4,
+                "categoryText": "Education",
+                "num": 60,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Education/978-3-319-52980-6_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Engineering/978-3-319-91707-8_CoverFigure.jpg",
+                "category": 5,
+                "categoryText": "Engineering",
+                "num": 23,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Engineering/978-3-319-64816-3_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Environment/978-3-319-29671-5_CoverFigure.jpg",
+                "category": 6,
+                "categoryText": "Environment",
+                "num": 42,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Environment/978-4-431-54895-9_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Geography/978-3-319-75593-9_CoverFigure.jpg",
+                "category": 7,
+                "categoryText": "Geography",
+                "num": 7,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Geography/978-3-319-92813-5_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/History/978-3-319-64337-3_CoverFigure.jpg",
+                "category": 8,
+                "categoryText": "History",
+                "num": 18,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/History/978-3-319-92964-4_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Laws/978-3-319-71087-7_CoverFigure.jpg",
+                "category": 9,
+                "categoryText": "Laws",
+                "num": 13,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Laws/978-981-13-1232-8_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/LifeSciences/978-3-319-68152-8_CoverFigure.jpg",
+                "category": 10,
+                "categoryText": "LifeSciences",
+                "num": 24,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/LifeSciences/978-3-319-69539-6_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Literature/2010_Book_CyborgsInLatinAmerica.jpeg",
+                "category": 11,
+                "categoryText": "Literature",
+                "num": 6,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Literature/2010_Book_HistoryAndCulturalMemoryInNeo-.jpeg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/MaterialsScience/978-981-10-7617-6_CoverFigure.jpg",
+                "category": 15,
+                "categoryText": "MaterialsScience",
+                "num": 2,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/MaterialsScience/2018_Book_ProceedingsOfTheScientific-Pra.jpeg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Mathematics/978-3-319-29439-1_CoverFigure.jpg",
+                "category": 16,
+                "categoryText": "Mathematics",
+                "num": 9,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Mathematics/2015_Book_InnovationsInQuantitativeRiskM.jpeg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/MedicineAndPublicHealth/978-3-319-28624-2_CoverFigure.jpg",
+                "category": 17,
+                "categoryText": "MedicineAndPublicHealth",
+                "num": 20,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/MedicineAndPublicHealth/978-3-319-75019-4_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Philosophy/978-3-319-26300-7_CoverFigure.jpg",
+                "category": 18,
+                "categoryText": "Philosophy",
+                "num": 16,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Philosophy/978-3-319-94610-8_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Physics/978-3-319-42424-8_CoverFigure.jpg",
+                "category": 19,
+                "categoryText": "Physics",
+                "num": 10,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Physics/978-3-662-57366-2_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/PoliticalScienceAndInternationalRelations/978-3-319-69929-5_CoverFigure.jpg",
+                "category": 20,
+                "categoryText": "PoliticalScienceAndInternationalRelations",
+                "num": 26,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/PoliticalScienceAndInternationalRelations/978-981-10-7182-9_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Psychology/978-3-319-78160-0_CoverFigure.jpg",
+                "category": 21,
+                "categoryText": "Psychology",
+                "num": 3,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Psychology/2015_Book_PromotingSocialDialogueInEurop.jpeg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/SocialSciences/978-3-319-72356-3_CoverFigure.jpg",
+                "category": 2,
+                "categoryText": "SocialSciences",
+                "num": 51,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/SocialSciences/978-3-319-77991-1_CoverFigure.jpg"
+            }, {
+                "cover": "https://www.youbaobao.xyz/book/res/img/Statistics/2013_Book_ShipAndOffshoreStructureDesign.jpeg",
+                "category": 22,
+                "categoryText": "Statistics",
+                "num": 1,
+                "cover2": "https://www.youbaobao.xyz/book/res/img/Statistics/2013_Book_ShipAndOffshoreStructureDesign.jpeg"
+            }]
+        };
+    },
 
-  methods: {
-    onSearchBarClick: function onSearchBarClick() {// 跳转搜索页面
+    methods: {
+        onSearchBarClick: function onSearchBarClick() {// 跳转搜索页面
 
+        },
+        onMoreClick: function onMoreClick() {
+            console.log('onMoreClick');
+        },
+        onBookClick: function onBookClick() {
+            console.log('onBookClick');
+        }
     }
-  }
 });
 
 /***/ }),
@@ -981,6 +1087,7 @@ var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
   __webpack_require__(31)
+  __webpack_require__(45)
 }
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -1058,6 +1165,49 @@ if (false) {(function () {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -1083,7 +1233,7 @@ if (false) {(function () {
     },
     mode: {
       type: String,
-      default: __WEBPACK_IMPORTED_MODULE_0__utils_const__["a" /* HOME_BOOK_MODE */].ROW
+      default: __WEBPACK_IMPORTED_MODULE_0__utils_const__["b" /* HOME_BOOK_MODE */].ROW
     },
     showTitle: {
       type: Boolean,
@@ -1103,16 +1253,26 @@ if (false) {(function () {
   },
 
   methods: {
-    onMoreClick: function onMoreClick() {},
-    onBookClick: function onBookClick() {}
+    onMoreClick: function onMoreClick() {
+      this.$emit('onMoreClick');
+    },
+    onBookClick: function onBookClick() {
+      this.$emit('onBookClick');
+    }
   },
   computed: {
+    HOME_BOOK_MODE: function HOME_BOOK_MODE() {
+      return __WEBPACK_IMPORTED_MODULE_0__utils_const__["b" /* HOME_BOOK_MODE */];
+    },
     bookData: function bookData() {
       var data = this.data,
           row = this.row,
           col = this.col;
 
       if (data && data.length > 0) {
+        data.forEach(function (book) {
+          book.text = __WEBPACK_IMPORTED_MODULE_0__utils_const__["a" /* CATEGORY */][book.categoryText.toLowerCase()];
+        });
         var number = row * col;
         var _bookData = data.slice(0, number); // 确定最多从数据中拿几本书
         var _bookDataRow = [];
@@ -1134,11 +1294,36 @@ if (false) {(function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HOME_BOOK_MODE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return HOME_BOOK_MODE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CATEGORY; });
 var HOME_BOOK_MODE = {
   ROW: 'row',
   COL: 'col',
   CATEGORY: 'category'
+};
+var CATEGORY = {
+  computerscience: '计算机科学',
+  socialsciences: '社会科学',
+  economics: '经济学',
+  education: '教育学',
+  engineering: '工程学',
+  environment: '环境学',
+  geography: '地理学',
+  history: '历史学',
+  laws: '法学',
+  lifesciences: '生命科学',
+  literature: '文学',
+  biomedicine: '生物医学',
+  businessandmanagement: '工商管理',
+  earthsciences: '地球科学',
+  materialsscience: '材料科学',
+  mathematics: '数学',
+  medicineandpublichealth: '公共卫生',
+  philosophy: '哲学',
+  physics: '物理',
+  politicalscienceandinternationalrelations: '国际关系',
+  psychology: '心理学',
+  statistics: '统计学'
 };
 
 /***/ }),
@@ -1160,26 +1345,79 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     }, _vm._l((item), function(book, bookIndex) {
       return _c('div', {
         key: bookIndex,
-        staticClass: "home-book-col"
-      }, [_c('div', {
+        staticClass: "home-book-col",
+        style: ({
+          flex: '00' + (100 / _vm.col) + '%'
+        })
+      }, [(_vm.mode === _vm.HOME_BOOK_MODE.COL || _vm.mode === _vm.HOME_BOOK_MODE.ROW) ? _c('div', {
         staticClass: "book-wrapper",
         style: ({
-          flex: '0 0' + (_vm.col / 100) + '00'
-        })
+          flexDirection: _vm.mode === _vm.HOME_BOOK_MODE.COL ? 'column' : 'row'
+        }),
+        attrs: {
+          "eventid": '0_' + index + '-' + bookIndex
+        },
+        on: {
+          "click": _vm.onBookClick
+        }
       }, [_c('ImageView', {
         attrs: {
           "src": book.cover,
           "mpcomid": '0_' + index + '-' + bookIndex
         }
-      }), _vm._v(" "), _c('div', {
+      }), _vm._v(" "), (_vm.mode === _vm.HOME_BOOK_MODE.COL) ? _c('div', {
         staticClass: "book-wrapper-title book-title-col"
       }, [_c('div', {
         staticClass: "book-title"
-      }, [_vm._v("\n                " + _vm._s(book.title) + "\n              ")])])], 1)])
+      }, [_vm._v("\n                " + _vm._s(book.title) + "\n              ")])]) : _c('div', {
+        staticClass: "book-wrapper-title book-title-row"
+      }, [_c('div', {
+        staticClass: "book-title"
+      }, [_vm._v("\n                " + _vm._s(book.title) + "\n              ")]), _vm._v(" "), _c('div', {
+        staticClass: "book-wrapper-author"
+      }, [_c('div', {
+        staticClass: "book-title book-author"
+      }, [_vm._v("\n                " + _vm._s(book.author) + "\n                ")]), _vm._v(" "), _c('div', {
+        staticClass: "book-title book-author"
+      }, [_vm._v("\n                  " + _vm._s(book.categoryText) + "\n                ")])])])], 1) : _c('div', {
+        staticClass: "category-wrapper"
+      }, [_c('div', {
+        staticClass: "category-text"
+      }, [_vm._v(_vm._s(book.text))]), _vm._v(" "), _c('div', {
+        staticClass: "category-num"
+      }, [_vm._v(_vm._s(book.num) + "本书")]), _vm._v(" "), _c('div', {
+        staticClass: "category-img-wraper"
+      }, [_c('div', {
+        staticClass: "category-img1"
+      }, [_c('ImageView', {
+        attrs: {
+          "src": book.cover,
+          "mpcomid": '1_' + index + '-' + bookIndex
+        }
+      })], 1), _vm._v(" "), _c('div', {
+        staticClass: "category-img2"
+      }, [_c('ImageView', {
+        attrs: {
+          "src": book.cover2,
+          "mpcomid": '2_' + index + '-' + bookIndex
+        }
+      })], 1)])])])
     }))
-  })), _vm._v(" "), _c('div', {
-    staticClass: "home-book-footer"
-  })])
+  })), _vm._v(" "), (_vm.showBtn) ? _c('div', {
+    staticClass: "home-book-footer",
+    attrs: {
+      "eventid": '1'
+    },
+    on: {
+      "click": _vm.onMoreClick
+    }
+  }, [_c('van-button', {
+    attrs: {
+      "round": "",
+      "custom-class": "home-book-btn",
+      "mpcomid": '3'
+    }
+  }, [_vm._v(_vm._s(_vm.btnText))])], 1) : _vm._e()])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -1222,11 +1460,18 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     staticClass: "homebook"
   }, [_c('homeBook', {
     attrs: {
-      "title": "为你推荐",
-      "row": 1,
-      "col": 4,
+      "title": "分类查询",
+      "row": 2,
+      "col": 2,
       "data": _vm.data,
+      "mode": "category",
+      "btn-text": "换一批",
+      "eventid": '1',
       "mpcomid": '3'
+    },
+    on: {
+      "onMoreClick": _vm.onMoreClick,
+      "onBookClick": _vm.onBookClick
     }
   })], 1)], 1)
 }
@@ -1240,6 +1485,21 @@ if (false) {
      require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-473ceaec", esExports)
   }
 }
+
+/***/ }),
+/* 36 */,
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 ],[10]);
